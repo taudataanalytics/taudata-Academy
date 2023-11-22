@@ -1,0 +1,608 @@
+1
+00:00:00,000 --> 00:00:03,919
+<font color="#E5E5E5">you</font>
+
+2
+00:00:01,860 --> 00:00:03,919
+<font color="#E5E5E5">you</font>
+
+3
+00:00:09,000 --> 00:00:16,769
+<font color="#CCCCCC">i ghen values and eigenvectors</font><font color="#E5E5E5"> play a</font>
+
+4
+00:00:14,250 --> 00:00:19,259
+critical role<font color="#CCCCCC"> in determining</font><font color="#E5E5E5"> observable</font>
+
+5
+00:00:16,769 --> 00:00:21,449
+measurements of quantum<font color="#E5E5E5"> systems in</font>
+
+6
+00:00:19,260 --> 00:00:24,270
+<font color="#E5E5E5">evaluating the stability of mechanical</font>
+
+7
+00:00:21,449 --> 00:00:26,849
+structures in analyzing the feedback
+
+8
+00:00:24,269 --> 00:00:31,140
+loops of electric<font color="#CCCCCC"> circuits</font><font color="#E5E5E5"> and in many</font>
+
+9
+00:00:26,849 --> 00:00:33,600
+other<font color="#CCCCCC"> areas to fully understand physics</font>
+
+10
+00:00:31,140 --> 00:00:37,820
+and engineering<font color="#CCCCCC"> it is necessary</font><font color="#E5E5E5"> to</font>
+
+11
+00:00:33,600 --> 00:00:40,500
+understand<font color="#CCCCCC"> Augen values and eigenvectors</font>
+
+12
+00:00:37,820 --> 00:00:44,628
+<font color="#E5E5E5">suppose we have an</font><font color="#CCCCCC"> object</font>
+
+13
+00:00:40,500 --> 00:00:47,280
+[Music]
+
+14
+00:00:44,628 --> 00:00:48,890
+here we are<font color="#E5E5E5"> viewing the object from</font>
+
+15
+00:00:47,280 --> 00:00:55,260
+<font color="#CCCCCC">different perspectives</font>
+
+16
+00:00:48,890 --> 00:00:58,629
+[Music]
+
+17
+00:00:55,259 --> 00:01:01,558
+now suppose<font color="#CCCCCC"> we apply what we call a</font>
+
+18
+00:00:58,628 --> 00:01:01,558
+<font color="#E5E5E5">linear transformation</font>
+
+19
+00:01:01,770 --> 00:01:07,079
+[Music]
+
+20
+00:01:09,159 --> 00:01:16,329
+as we again view the object<font color="#E5E5E5"> from</font>
+
+21
+00:01:13,840 --> 00:01:29,409
+<font color="#CCCCCC">different perspectives</font><font color="#E5E5E5"> we see</font><font color="#CCCCCC"> that the</font>
+
+22
+00:01:16,328 --> 00:01:31,688
+object is now distorted let us consider
+
+23
+00:01:29,409 --> 00:01:33,040
+the points on this object<font color="#CCCCCC"> before the</font>
+
+24
+00:01:31,688 --> 00:01:36,468
+<font color="#E5E5E5">transformation</font>
+
+25
+00:01:33,040 --> 00:01:36,469
+[Music]
+
+26
+00:01:37,739 --> 00:01:41,939
+each of these points can be represented
+
+27
+00:01:40,870 --> 00:01:49,069
+<font color="#CCCCCC">by an</font><font color="#E5E5E5"> arrow</font>
+
+28
+00:01:41,939 --> 00:01:49,069
+[Music]
+
+29
+00:01:51,760 --> 00:01:57,500
+when the transformation<font color="#CCCCCC"> is applied the</font>
+
+30
+00:01:55,189 --> 00:01:59,289
+length and<font color="#CCCCCC"> direction</font><font color="#E5E5E5"> of each arrow can</font>
+
+31
+00:01:57,500 --> 00:02:06,739
+change
+
+32
+00:01:59,290 --> 00:02:06,739
+[Music]
+
+33
+00:02:08,409 --> 00:02:13,909
+there are some arrows<font color="#E5E5E5"> that point along</font>
+
+34
+00:02:11,239 --> 00:02:28,759
+the same line both before and after<font color="#E5E5E5"> the</font>
+
+35
+00:02:13,909 --> 00:02:31,009
+transformation for example these<font color="#CCCCCC"> three</font>
+
+36
+00:02:28,759 --> 00:02:34,689
+arrows<font color="#E5E5E5"> will simply have their lengths</font>
+
+37
+00:02:31,009 --> 00:02:34,689
+multiplied by a<font color="#E5E5E5"> constant</font>
+
+38
+00:02:41,560 --> 00:02:47,900
+the length of<font color="#E5E5E5"> the orange arrow is</font>
+
+39
+00:02:44,270 --> 00:02:50,830
+multiplied by<font color="#CCCCCC"> negative 1 the length of</font>
+
+40
+00:02:47,900 --> 00:02:53,480
+the blue arrow is multiplied by<font color="#CCCCCC"> 2</font><font color="#E5E5E5"> and</font>
+
+41
+00:02:50,830 --> 00:02:55,380
+the length of the green arrow is
+
+42
+00:02:53,479 --> 00:03:10,429
+multiplied<font color="#CCCCCC"> by 1/2</font>
+
+43
+00:02:55,379 --> 00:03:10,429
+[Music]
+
+44
+00:03:13,318 --> 00:03:22,488
+we say that negative<font color="#E5E5E5"> 1/2 and 1/2 are the</font>
+
+45
+00:03:18,269 --> 00:03:22,489
+eigenvalues<font color="#CCCCCC"> of this transformation</font>
+
+46
+00:03:30,870 --> 00:03:35,430
+the arrows that<font color="#E5E5E5"> point along the same</font>
+
+47
+00:03:33,239 --> 00:03:38,030
+line<font color="#CCCCCC"> both before and after</font><font color="#E5E5E5"> the</font>
+
+48
+00:03:35,430 --> 00:03:39,420
+<font color="#CCCCCC">transformation are what we call the</font>
+
+49
+00:03:38,030 --> 00:03:45,590
+eigenvectors
+
+50
+00:03:39,419 --> 00:03:45,589
+[Music]
+
+51
+00:03:46,580 --> 00:03:51,680
+the amounts by which the lengths of<font color="#E5E5E5"> each</font>
+
+52
+00:03:49,099 --> 00:04:00,370
+of these arrows<font color="#E5E5E5"> is multiplied are what</font>
+
+53
+00:03:51,680 --> 00:04:03,590
+we call the eigenvalues the eigenvalues
+
+54
+00:04:00,370 --> 00:04:07,840
+<font color="#E5E5E5">and eigenvectors dictate the nature</font><font color="#CCCCCC"> of</font>
+
+55
+00:04:03,590 --> 00:04:07,840
+the transformation for the entire object
+
+56
+00:04:10,050 --> 00:04:16,699
+consider for<font color="#E5E5E5"> example the point</font>
+
+57
+00:04:12,840 --> 00:04:16,699
+symbolized by<font color="#CCCCCC"> this white arrow</font>
+
+58
+00:04:32,668 --> 00:04:37,408
+the white arrow is not aligned with<font color="#E5E5E5"> the</font>
+
+59
+00:04:35,129 --> 00:04:40,259
+directions of<font color="#E5E5E5"> any of the eigenvectors</font>
+
+60
+00:04:37,408 --> 00:04:41,420
+which are symbolized by the orange green
+
+61
+00:04:40,259 --> 00:04:45,619
+<font color="#E5E5E5">and</font><font color="#CCCCCC"> blue lines</font>
+
+62
+00:04:41,420 --> 00:04:45,619
+[Music]
+
+63
+00:04:50,139 --> 00:04:55,400
+but the white arrow can be<font color="#CCCCCC"> thought of as</font>
+
+64
+00:04:53,418 --> 00:04:57,529
+a combination<font color="#CCCCCC"> of arrows that are</font>
+
+65
+00:04:55,399 --> 00:04:58,439
+<font color="#E5E5E5">parallel</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> the directions of these</font>
+
+66
+00:04:57,529 --> 00:05:06,708
+three lines
+
+67
+00:04:58,439 --> 00:05:06,709
+[Music]
+
+68
+00:05:08,620 --> 00:05:13,480
+when the<font color="#E5E5E5"> transformation is applied the</font>
+
+69
+00:05:11,649 --> 00:05:15,879
+lengths<font color="#E5E5E5"> of each of these arrows is</font>
+
+70
+00:05:13,480 --> 00:05:17,620
+multiplied by the eigenvalue associated
+
+71
+00:05:15,879 --> 00:05:28,930
+with<font color="#E5E5E5"> that direction</font>
+
+72
+00:05:17,620 --> 00:05:28,930
+[Music]
+
+73
+00:05:33,569 --> 00:05:39,319
+that is the orange green and<font color="#E5E5E5"> blue arrows</font>
+
+74
+00:05:37,230 --> 00:05:43,710
+<font color="#E5E5E5">continue pointing in the same direction</font>
+
+75
+00:05:39,319 --> 00:05:52,500
+<font color="#E5E5E5">but are multiplied by</font><font color="#CCCCCC"> negative 1</font><font color="#E5E5E5"> 1/2 and</font>
+
+76
+00:05:43,709 --> 00:05:55,169
+<font color="#E5E5E5">2 in this way the transformation of any</font>
+
+77
+00:05:52,500 --> 00:05:56,930
+<font color="#E5E5E5">point on this object can be determined</font>
+
+78
+00:05:55,170 --> 00:06:07,620
+<font color="#CCCCCC">by</font><font color="#E5E5E5"> using the eigenvalues and</font>
+
+79
+00:05:56,930 --> 00:06:10,110
+<font color="#E5E5E5">eigenvectors the eigenvectors do not</font>
+
+80
+00:06:07,620 --> 00:06:12,319
+necessarily<font color="#CCCCCC"> have to</font><font color="#E5E5E5"> be</font><font color="#CCCCCC"> ninety degrees to</font>
+
+81
+00:06:10,110 --> 00:06:15,408
+one another
+
+82
+00:06:12,319 --> 00:06:19,778
+for example let us consider<font color="#E5E5E5"> this new</font>
+
+83
+00:06:15,408 --> 00:06:19,778
+<font color="#E5E5E5">object</font><font color="#CCCCCC"> and this new transformation</font>
+
+84
+00:06:28,589 --> 00:06:30,649
+you
+
+85
+00:06:34,439 --> 00:06:40,408
+the red and green<font color="#E5E5E5"> arrows are</font>
+
+86
+00:06:36,939 --> 00:06:42,468
+eigenvectors of<font color="#E5E5E5"> this transformation</font>
+
+87
+00:06:40,408 --> 00:06:42,468
+you
+
+88
+00:06:44,680 --> 00:06:52,139
+the green arrow<font color="#E5E5E5"> is multiplied</font><font color="#CCCCCC"> by 1 and</font>
+
+89
+00:06:47,649 --> 00:06:52,138
+the red arrow is multiplied<font color="#CCCCCC"> by</font><font color="#E5E5E5"> 2</font>
+
+90
+00:06:56,449 --> 00:06:58,509
+you
+
+91
+00:07:03,019 --> 00:07:08,139
+now consider the transformation<font color="#E5E5E5"> of this</font>
+
+92
+00:07:05,540 --> 00:07:08,140
+white arrow
+
+93
+00:07:23,598 --> 00:07:28,550
+the white arrow can be<font color="#CCCCCC"> thought of as the</font>
+
+94
+00:07:25,968 --> 00:07:31,449
+<font color="#E5E5E5">combination of arrows parallel to the</font>
+
+95
+00:07:28,550 --> 00:07:31,449
+green and<font color="#CCCCCC"> red</font><font color="#E5E5E5"> lines</font>
+
+96
+00:07:34,529 --> 00:07:41,039
+during the<font color="#CCCCCC"> transformation this green</font>
+
+97
+00:07:37,740 --> 00:07:43,199
+arrow is multiplied<font color="#CCCCCC"> by 1 and this red</font>
+
+98
+00:07:41,040 --> 00:07:57,030
+arrow is multiplied by<font color="#CCCCCC"> 2</font>
+
+99
+00:07:43,199 --> 00:08:00,610
+[Music]
+
+100
+00:07:57,029 --> 00:08:02,709
+the<font color="#E5E5E5"> eigenvalues</font><font color="#CCCCCC"> and eigenvectors do not</font>
+
+101
+00:08:00,610 --> 00:08:05,189
+<font color="#CCCCCC">necessarily have to</font><font color="#E5E5E5"> consist of real</font>
+
+102
+00:08:02,709 --> 00:08:05,189
+numbers
+
+103
+00:08:07,560 --> 00:08:13,870
+you
+
+104
+00:08:08,519 --> 00:08:13,870
+[Music]
+
+105
+00:08:14,949 --> 00:08:21,039
+the<font color="#CCCCCC"> eigenvalues of this transformation</font>
+
+106
+00:08:17,470 --> 00:08:26,550
+<font color="#E5E5E5">are the imaginary numbers</font><font color="#CCCCCC"> I</font><font color="#E5E5E5"> and negative</font>
+
+107
+00:08:21,040 --> 00:08:26,550
+<font color="#E5E5E5">I and the eigenvectors are the following</font>
+
+108
+00:08:29,180 --> 00:08:31,240
+you
+
+109
+00:08:39,820 --> 00:08:45,310
+let us say that<font color="#CCCCCC"> the red</font><font color="#E5E5E5"> arrow is</font>
+
+110
+00:08:42,288 --> 00:08:50,350
+signified by a 1 followed<font color="#CCCCCC"> by a</font><font color="#E5E5E5"> 0</font>
+
+111
+00:08:45,309 --> 00:08:50,349
+[Music]
+
+112
+00:08:51,419 --> 00:08:57,669
+and let's say<font color="#CCCCCC"> that the yellow arrow is</font>
+
+113
+00:08:53,820 --> 00:09:02,840
+signified by a<font color="#E5E5E5"> zero followed by a</font><font color="#CCCCCC"> one</font>
+
+114
+00:08:57,669 --> 00:09:02,839
+[Music]
+
+115
+00:09:05,830 --> 00:09:11,000
+before the transformation<font color="#CCCCCC"> the blue arrow</font>
+
+116
+00:09:09,019 --> 00:09:14,949
+is<font color="#E5E5E5"> in the same direction as the red</font>
+
+117
+00:09:11,000 --> 00:09:14,950
+arrow<font color="#CCCCCC"> but double its</font><font color="#E5E5E5"> length</font>
+
+118
+00:09:15,419 --> 00:09:22,949
+[Music]
+
+119
+00:09:19,950 --> 00:09:26,100
+therefore<font color="#E5E5E5"> using the notation described</font>
+
+120
+00:09:22,950 --> 00:09:29,100
+the blue arrow before<font color="#CCCCCC"> the</font><font color="#E5E5E5"> transformation</font>
+
+121
+00:09:26,100 --> 00:09:29,909
+would be<font color="#CCCCCC"> signified by a 2 followed by a</font>
+
+122
+00:09:29,100 --> 00:09:33,700
+<font color="#CCCCCC">0</font>
+
+123
+00:09:29,909 --> 00:09:33,699
+[Music]
+
+124
+00:09:42,690 --> 00:09:48,430
+after the<font color="#E5E5E5"> transformation the blue arrow</font>
+
+125
+00:09:46,089 --> 00:09:52,680
+is pointed in the opposite direction of
+
+126
+00:09:48,429 --> 00:09:52,679
+<font color="#E5E5E5">the yellow arrow and double its length</font>
+
+127
+00:09:55,889 --> 00:10:00,819
+therefore the blue arrow after<font color="#CCCCCC"> the</font>
+
+128
+00:09:58,659 --> 00:10:10,659
+transformation<font color="#E5E5E5"> would be signified</font><font color="#CCCCCC"> by a</font>
+
+129
+00:10:00,820 --> 00:10:12,610
+<font color="#E5E5E5">zero followed by a negative</font><font color="#CCCCCC"> - let's</font>
+
+130
+00:10:10,659 --> 00:10:15,480
+consider the blue arrow<font color="#CCCCCC"> before the</font>
+
+131
+00:10:12,610 --> 00:10:15,480
+<font color="#E5E5E5">transformation</font>
+
+132
+00:10:16,580 --> 00:10:20,769
+[Music]
+
+133
+00:10:22,139 --> 00:10:27,480
+the blue arrow can<font color="#CCCCCC"> be thought of as the</font>
+
+134
+00:10:24,850 --> 00:10:38,300
+<font color="#E5E5E5">sum of</font><font color="#CCCCCC"> the two eigenvectors</font>
+
+135
+00:10:27,480 --> 00:10:41,389
+[Music]
+
+136
+00:10:38,299 --> 00:10:45,399
+suppose we multiply each eigenvector by
+
+137
+00:10:41,389 --> 00:10:45,399
+its corresponding<font color="#E5E5E5"> eigenvalue</font>
+
+138
+00:10:55,159 --> 00:11:08,629
+[Music]
+
+139
+00:11:13,549 --> 00:11:35,378
+[Music]
+
+140
+00:11:37,940 --> 00:11:43,409
+[Music]
+
+141
+00:11:47,889 --> 00:11:53,799
+[Music]
+
+142
+00:11:51,250 --> 00:11:56,440
+the result is the new direction<font color="#E5E5E5"> of our</font>
+
+143
+00:11:53,799 --> 00:12:07,109
+blue arrow<font color="#E5E5E5"> after</font><font color="#CCCCCC"> the</font><font color="#E5E5E5"> transformation</font>
+
+144
+00:11:56,440 --> 00:12:09,999
+[Music]
+
+145
+00:12:07,110 --> 00:12:12,999
+therefore<font color="#E5E5E5"> everything discussed here is</font>
+
+146
+00:12:09,999 --> 00:12:22,389
+still true<font color="#CCCCCC"> even for imaginary values for</font>
+
+147
+00:12:12,999 --> 00:12:24,699
+eigenvalues and eigenvectors much more
+
+148
+00:12:22,389 --> 00:12:27,539
+<font color="#E5E5E5">information about linear transformations</font>
+
+149
+00:12:24,698 --> 00:12:31,179
+is available in the video<font color="#CCCCCC"> linear</font><font color="#E5E5E5"> algebra</font>
+
+150
+00:12:27,539 --> 00:12:33,099
+matrix transformations<font color="#E5E5E5"> please subscribe</font>
+
+151
+00:12:31,179 --> 00:12:35,338
+<font color="#E5E5E5">for notifications when new</font><font color="#CCCCCC"> videos are</font>
+
+152
+00:12:33,100 --> 00:12:35,339
+<font color="#E5E5E5">ready</font>
+

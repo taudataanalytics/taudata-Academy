@@ -1,0 +1,516 @@
+1
+00:00:00,000 --> 00:00:04,500
+but many<font color="#E5E5E5"> people who visit your office</font>
+
+2
+00:00:01,829 --> 00:00:06,479
+know about you<font color="#CCCCCC"> some what it does no it</font>
+
+3
+00:00:04,500 --> 00:00:08,339
+did basically<font color="#E5E5E5"> takes about 10 minutes</font><font color="#CCCCCC"> to</font>
+
+4
+00:00:06,480 --> 00:00:09,870
+<font color="#CCCCCC">even</font><font color="#E5E5E5"> explain what what the gist of it is</font>
+
+5
+00:00:08,339 --> 00:00:11,160
+<font color="#E5E5E5">but most people know that I've got seven</font>
+
+6
+00:00:09,869 --> 00:00:13,619
+or<font color="#CCCCCC"> eight</font><font color="#E5E5E5"> computers working all the time</font>
+
+7
+00:00:11,160 --> 00:00:15,179
+<font color="#E5E5E5">in my</font><font color="#CCCCCC"> office</font><font color="#E5E5E5"> on something what do they</font>
+
+8
+00:00:13,619 --> 00:00:17,969
+think<font color="#CCCCCC"> about</font><font color="#E5E5E5"> that I think</font><font color="#CCCCCC"> they think</font><font color="#E5E5E5"> it's</font>
+
+9
+00:00:15,179 --> 00:00:21,118
+<font color="#CCCCCC">a bit nutty</font><font color="#E5E5E5"> and I care so a lot</font><font color="#CCCCCC"> of</font>
+
+10
+00:00:17,969 --> 00:00:23,339
+<font color="#E5E5E5">people think that - what do you I think</font>
+
+11
+00:00:21,118 --> 00:00:25,259
+<font color="#E5E5E5">it's probably worth it when time will</font>
+
+12
+00:00:23,339 --> 00:00:27,839
+tell
+
+13
+00:00:25,260 --> 00:00:30,720
+<font color="#E5E5E5">to most physicists I guess</font><font color="#CCCCCC"> lambda</font>
+
+14
+00:00:27,839 --> 00:00:32,039
+probably means the length of a<font color="#CCCCCC"> wave it</font>
+
+15
+00:00:30,719 --> 00:00:33,990
+means how long is the distance<font color="#E5E5E5"> between</font>
+
+16
+00:00:32,039 --> 00:00:36,030
+<font color="#E5E5E5">one peak of a wave and the next one very</font>
+
+17
+00:00:33,990 --> 00:00:39,000
+easy to understand water waves traveling
+
+18
+00:00:36,030 --> 00:00:40,760
+along a pond<font color="#E5E5E5"> but too many engineers and</font>
+
+19
+00:00:39,000 --> 00:00:43,350
+<font color="#CCCCCC">particularly people</font><font color="#E5E5E5"> who do dynamics</font>
+
+20
+00:00:40,759 --> 00:00:46,589
+<font color="#E5E5E5">lambda means an eigenvalue it's a</font>
+
+21
+00:00:43,350 --> 00:00:48,689
+special<font color="#E5E5E5"> value a special number</font><font color="#CCCCCC"> that you</font>
+
+22
+00:00:46,590 --> 00:00:50,130
+get out<font color="#E5E5E5"> of a matrix</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> tells you</font>
+
+23
+00:00:48,689 --> 00:00:51,238
+something<font color="#CCCCCC"> very important about the</font>
+
+24
+00:00:50,130 --> 00:00:55,109
+nature<font color="#E5E5E5"> of that matrix</font>
+
+25
+00:00:51,238 --> 00:00:56,280
+the word is eigenvalue<font color="#CCCCCC"> some people would</font>
+
+26
+00:00:55,109 --> 00:00:59,070
+<font color="#E5E5E5">call them proper values or</font>
+
+27
+00:00:56,280 --> 00:01:00,780
+characteristic values<font color="#CCCCCC"> it's a mixture of</font>
+
+28
+00:00:59,070 --> 00:01:04,259
+a<font color="#E5E5E5"> German word and an English word</font>
+
+29
+00:01:00,780 --> 00:01:06,030
+obviously<font color="#E5E5E5"> eigenvalue is and</font><font color="#CCCCCC"> I'm not</font><font color="#E5E5E5"> sure</font>
+
+30
+00:01:04,259 --> 00:01:07,530
+what the exact literal translation is
+
+31
+00:01:06,030 --> 00:01:09,719
+but it means a special<font color="#CCCCCC"> number</font><font color="#E5E5E5"> that</font>
+
+32
+00:01:07,530 --> 00:01:13,710
+characterizes the<font color="#E5E5E5"> matrix and if you have</font>
+
+33
+00:01:09,719 --> 00:01:15,560
+a<font color="#CCCCCC"> matrix that</font><font color="#E5E5E5"> is</font><font color="#CCCCCC"> ten</font><font color="#E5E5E5"> by</font><font color="#CCCCCC"> tens as</font><font color="#E5E5E5"> ten rows</font>
+
+34
+00:01:13,709 --> 00:01:18,269
+in<font color="#E5E5E5"> it and ten columns of numbers in it</font>
+
+35
+00:01:15,560 --> 00:01:20,460
+it will<font color="#E5E5E5"> have ten</font><font color="#CCCCCC"> ikon values</font>
+
+36
+00:01:18,269 --> 00:01:22,349
+people often<font color="#E5E5E5"> ask well what physical</font>
+
+37
+00:01:20,459 --> 00:01:24,659
+significance<font color="#CCCCCC"> can</font><font color="#E5E5E5"> there be two</font>
+
+38
+00:01:22,349 --> 00:01:26,969
+<font color="#E5E5E5">eigenvalues</font><font color="#CCCCCC"> and I can show you two very</font>
+
+39
+00:01:24,659 --> 00:01:30,179
+simple instances of that one has<font color="#CCCCCC"> to do</font>
+
+40
+00:01:26,969 --> 00:01:32,179
+with<font color="#E5E5E5"> vibration and if I cantilever this</font>
+
+41
+00:01:30,179 --> 00:01:35,039
+ruler off the side of<font color="#CCCCCC"> the bench</font><font color="#E5E5E5"> and</font>
+
+42
+00:01:32,179 --> 00:01:36,359
+excited<font color="#E5E5E5"> with</font><font color="#CCCCCC"> some initial</font><font color="#E5E5E5"> condition then</font>
+
+43
+00:01:35,039 --> 00:01:38,069
+you<font color="#E5E5E5"> see that the ruler goes into an</font>
+
+44
+00:01:36,359 --> 00:01:40,618
+<font color="#E5E5E5">oscillation and the oscillation</font>
+
+45
+00:01:38,069 --> 00:01:42,179
+gradually dies<font color="#E5E5E5"> away</font><font color="#CCCCCC"> and we see two</font>
+
+46
+00:01:40,618 --> 00:01:44,609
+<font color="#CCCCCC">different parts to the vibration of</font><font color="#E5E5E5"> this</font>
+
+47
+00:01:42,179 --> 00:01:46,709
+ruler one is the oscillating part which
+
+48
+00:01:44,609 --> 00:01:48,539
+has a certain frequency<font color="#CCCCCC"> and I'm going</font><font color="#E5E5E5"> to</font>
+
+49
+00:01:46,709 --> 00:01:51,600
+guess that<font color="#CCCCCC"> that's</font><font color="#E5E5E5"> about</font><font color="#CCCCCC"> four times per</font>
+
+50
+00:01:48,539 --> 00:01:54,118
+second<font color="#CCCCCC"> about</font><font color="#E5E5E5"> four Hertz but also you see</font>
+
+51
+00:01:51,599 --> 00:01:55,379
+<font color="#CCCCCC">the decay part that the oscillations are</font>
+
+52
+00:01:54,118 --> 00:01:59,489
+getting smaller and<font color="#E5E5E5"> smaller</font><font color="#CCCCCC"> and smaller</font>
+
+53
+00:01:55,379 --> 00:02:01,170
+<font color="#CCCCCC">as we go through time and the lambda</font><font color="#E5E5E5"> has</font>
+
+54
+00:01:59,489 --> 00:02:03,629
+both of<font color="#CCCCCC"> those parts built into it so</font>
+
+55
+00:02:01,170 --> 00:02:05,670
+<font color="#CCCCCC">there's one good example this is a very</font>
+
+56
+00:02:03,629 --> 00:02:07,739
+<font color="#E5E5E5">simple structure in engineering we have</font>
+
+57
+00:02:05,670 --> 00:02:10,618
+<font color="#E5E5E5">to analyze very complex structures that</font>
+
+58
+00:02:07,739 --> 00:02:12,539
+have excitation<font color="#E5E5E5"> not just some giant</font>
+
+59
+00:02:10,618 --> 00:02:15,060
+person flicking<font color="#E5E5E5"> the end of the structure</font>
+
+60
+00:02:12,539 --> 00:02:17,310
+but they have sinusoidal excitation from
+
+61
+00:02:15,060 --> 00:02:19,920
+motors<font color="#E5E5E5"> turning and from loads moving</font>
+
+62
+00:02:17,310 --> 00:02:22,319
+backwards<font color="#E5E5E5"> and forwards that if they hit</font>
+
+63
+00:02:19,919 --> 00:02:25,079
+an eigenvalue<font color="#E5E5E5"> really will shake that</font>
+
+64
+00:02:22,318 --> 00:02:27,359
+structure to<font color="#E5E5E5"> bits and a second physical</font>
+
+65
+00:02:25,080 --> 00:02:30,209
+application for eigenvalues is also
+
+66
+00:02:27,360 --> 00:02:32,790
+demonstrably<font color="#E5E5E5"> with a ruler and it's the</font>
+
+67
+00:02:30,209 --> 00:02:35,039
+buckling<font color="#E5E5E5"> load of a ruler</font><font color="#CCCCCC"> if you stand a</font>
+
+68
+00:02:32,789 --> 00:02:36,959
+ruler up<font color="#E5E5E5"> vertically you can put a</font>
+
+69
+00:02:35,039 --> 00:02:38,669
+certain<font color="#CCCCCC"> amount of weight</font><font color="#E5E5E5"> on the top of</font>
+
+70
+00:02:36,959 --> 00:02:40,469
+it and<font color="#E5E5E5"> it will stay</font><font color="#CCCCCC"> perfectly</font><font color="#E5E5E5"> steady</font>
+
+71
+00:02:38,669 --> 00:02:42,869
+and as you increase<font color="#CCCCCC"> the amount of weight</font>
+
+72
+00:02:40,469 --> 00:02:44,400
+<font color="#E5E5E5">and I'm doing this with my hand</font><font color="#CCCCCC"> it will</font>
+
+73
+00:02:42,870 --> 00:02:46,170
+remain steady<font color="#E5E5E5"> until you come to a</font>
+
+74
+00:02:44,400 --> 00:02:48,900
+<font color="#CCCCCC">certain point and just happened</font><font color="#E5E5E5"> here</font>
+
+75
+00:02:46,169 --> 00:02:51,780
+where the load<font color="#E5E5E5"> is just too much for the</font>
+
+76
+00:02:48,900 --> 00:02:54,030
+ruler to bear<font color="#E5E5E5"> and</font><font color="#CCCCCC"> that particular</font><font color="#E5E5E5"> load</font>
+
+77
+00:02:51,780 --> 00:02:56,310
+is called a<font color="#CCCCCC"> critical load or a buckling</font>
+
+78
+00:02:54,030 --> 00:02:58,050
+load for the ruler<font color="#E5E5E5"> and you find that out</font>
+
+79
+00:02:56,310 --> 00:03:01,050
+by doing<font color="#E5E5E5"> a</font><font color="#CCCCCC"> calculation</font><font color="#E5E5E5"> which is an</font>
+
+80
+00:02:58,050 --> 00:03:02,880
+<font color="#E5E5E5">eigenvalue problem</font><font color="#CCCCCC"> I know of one</font><font color="#E5E5E5"> other</font>
+
+81
+00:03:01,050 --> 00:03:06,060
+application<font color="#E5E5E5"> that probably everybody</font><font color="#CCCCCC"> in</font>
+
+82
+00:03:02,879 --> 00:03:07,939
+<font color="#CCCCCC">England uses</font><font color="#E5E5E5"> Zygon values every single</font>
+
+83
+00:03:06,060 --> 00:03:11,129
+day and<font color="#CCCCCC"> that is</font><font color="#E5E5E5"> the</font><font color="#CCCCCC"> Google search engine</font>
+
+84
+00:03:07,939 --> 00:03:14,669
+<font color="#E5E5E5">it formulates its search problem as a</font>
+
+85
+00:03:11,129 --> 00:03:18,359
+giant<font color="#E5E5E5"> eigenvalue problem with a matrix</font>
+
+86
+00:03:14,669 --> 00:03:20,389
+<font color="#CCCCCC">that</font><font color="#E5E5E5"> probably guessing has millions of</font>
+
+87
+00:03:18,360 --> 00:03:23,250
+rows and millions of columns
+
+88
+00:03:20,389 --> 00:03:25,439
+<font color="#E5E5E5">sparsely-populated not not a number in</font>
+
+89
+00:03:23,250 --> 00:03:28,049
+<font color="#E5E5E5">every single place</font><font color="#CCCCCC"> and it calculates</font><font color="#E5E5E5"> the</font>
+
+90
+00:03:25,439 --> 00:03:29,729
+eigenvalues of this huge matrix<font color="#E5E5E5"> and uses</font>
+
+91
+00:03:28,049 --> 00:03:32,819
+that to<font color="#E5E5E5"> determine which entries should</font>
+
+92
+00:03:29,729 --> 00:03:35,369
+<font color="#E5E5E5">show you first the problem</font><font color="#CCCCCC"> of finding</font>
+
+93
+00:03:32,818 --> 00:03:37,199
+<font color="#E5E5E5">out</font><font color="#CCCCCC"> i ghen values is quite specialized</font>
+
+94
+00:03:35,370 --> 00:03:40,319
+<font color="#E5E5E5">to different sorts of systems and my</font>
+
+95
+00:03:37,199 --> 00:03:43,078
+<font color="#E5E5E5">particular interests are in</font><font color="#CCCCCC"> so-called</font>
+
+96
+00:03:40,318 --> 00:03:45,119
+second order systems so problems where
+
+97
+00:03:43,079 --> 00:03:48,959
+<font color="#CCCCCC">you don't just have one matrix</font><font color="#E5E5E5"> you have</font>
+
+98
+00:03:45,120 --> 00:03:54,599
+three matrices this is the<font color="#E5E5E5"> quadratic I</font>
+
+99
+00:03:48,959 --> 00:03:57,060
+can value problem for three matrices K
+
+100
+00:03:54,599 --> 00:03:59,189
+and D<font color="#E5E5E5"> and M K represents</font><font color="#CCCCCC"> the stiffness</font>
+
+101
+00:03:57,060 --> 00:04:01,859
+<font color="#E5E5E5">of a structure</font><font color="#CCCCCC"> D represents the damping</font>
+
+102
+00:03:59,189 --> 00:04:05,250
+<font color="#E5E5E5">M represents</font><font color="#CCCCCC"> the mass of that structure</font>
+
+103
+00:04:01,859 --> 00:04:08,969
+and the key word is<font color="#CCCCCC"> iso spectral the</font>
+
+104
+00:04:05,250 --> 00:04:13,250
+spectrum is the<font color="#E5E5E5"> set of</font><font color="#CCCCCC"> eigenvalues for a</font>
+
+105
+00:04:08,969 --> 00:04:16,350
+system and<font color="#CCCCCC"> i am</font><font color="#E5E5E5"> making an iso spectral</font>
+
+106
+00:04:13,250 --> 00:04:19,288
+transformation<font color="#CCCCCC"> i</font><font color="#E5E5E5"> already know what</font><font color="#CCCCCC"> the</font>
+
+107
+00:04:16,350 --> 00:04:21,539
+equation<font color="#E5E5E5"> is</font><font color="#CCCCCC"> that describes these flows</font>
+
+108
+00:04:19,288 --> 00:04:24,269
+<font color="#CCCCCC">i'm looking to</font><font color="#E5E5E5"> find the solution to the</font>
+
+109
+00:04:21,538 --> 00:04:27,360
+equation<font color="#CCCCCC"> and</font><font color="#E5E5E5"> i'm using the computers</font>
+
+110
+00:04:24,269 --> 00:04:29,459
+behind<font color="#E5E5E5"> you to do that and and i have</font>
+
+111
+00:04:27,360 --> 00:04:32,189
+<font color="#E5E5E5">been using those for several years</font><font color="#CCCCCC"> and</font>
+
+112
+00:04:29,459 --> 00:04:34,139
+<font color="#CCCCCC">often</font><font color="#E5E5E5"> these running 24</font><font color="#CCCCCC"> hours a day seven</font>
+
+113
+00:04:32,189 --> 00:04:36,329
+<font color="#CCCCCC">days a week the black one</font><font color="#E5E5E5"> is running all</font>
+
+114
+00:04:34,139 --> 00:04:38,550
+the time<font color="#E5E5E5"> some of</font><font color="#CCCCCC"> the other</font><font color="#E5E5E5"> ones i switch</font>
+
+115
+00:04:36,329 --> 00:04:41,939
+off<font color="#CCCCCC"> when</font><font color="#E5E5E5"> i'm not able to give it much</font>
+
+116
+00:04:38,550 --> 00:04:43,228
+time so typically<font color="#E5E5E5"> i in a working week I</font>
+
+117
+00:04:41,939 --> 00:04:44,788
+can only give this<font color="#CCCCCC"> ten minutes in the</font>
+
+118
+00:04:43,228 --> 00:04:46,918
+<font color="#CCCCCC">morning and that has to do just to keep</font>
+
+119
+00:04:44,788 --> 00:04:48,959
+it<font color="#E5E5E5"> going</font><font color="#CCCCCC"> and in</font><font color="#E5E5E5"> those cases I have two</font>
+
+120
+00:04:46,918 --> 00:04:51,000
+of them<font color="#E5E5E5"> running alongside the black one</font>
+
+121
+00:04:48,959 --> 00:04:51,649
+<font color="#E5E5E5">but if it's the middle</font><font color="#CCCCCC"> of vacation I</font>
+
+122
+00:04:51,000 --> 00:04:55,009
+have<font color="#E5E5E5"> four</font>
+
+123
+00:04:51,649 --> 00:04:56,629
+and I updated<font color="#E5E5E5"> twice a day last summer I</font>
+
+124
+00:04:55,009 --> 00:04:58,699
+figured out<font color="#E5E5E5"> a way</font><font color="#CCCCCC"> that made it</font><font color="#E5E5E5"> quite a</font>
+
+125
+00:04:56,629 --> 00:05:00,019
+bit<font color="#CCCCCC"> quicker</font><font color="#E5E5E5"> and I thought that that</font>
+
+126
+00:04:58,699 --> 00:05:03,129
+would probably<font color="#E5E5E5"> get me there inside a</font>
+
+127
+00:05:00,019 --> 00:05:05,389
+year and in fact<font color="#E5E5E5"> that's still not there</font>
+
+128
+00:05:03,129 --> 00:05:08,409
+<font color="#E5E5E5">this coming so we're probably I find out</font>
+
+129
+00:05:05,389 --> 00:05:08,410
+a<font color="#E5E5E5"> way to make it even quicker</font>
+

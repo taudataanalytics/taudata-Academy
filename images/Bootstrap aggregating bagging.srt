@@ -1,0 +1,207 @@
+1
+00:00:00,280 --> 00:00:03,509
+There's another way we can
+build an ensemble of learners.
+
+2
+00:00:03,509 --> 00:00:08,300
+We can build them using
+the same learning algorithm but
+
+3
+00:00:08,300 --> 00:00:11,480
+train each learner on
+a different set of the data.
+
+4
+00:00:11,480 --> 00:00:14,839
+This is what's called bootstrap
+aggregating or bagging.
+
+5
+00:00:14,839 --> 00:00:20,189
+It was invented by Bremen in
+the late '80s, early '90s.
+
+6
+00:00:20,190 --> 00:00:22,170
+Here's how bagging works.
+
+7
+00:00:22,170 --> 00:00:26,179
+So what we do is we create
+a number of subsets of the data.
+
+8
+00:00:26,179 --> 00:00:30,899
+I've drawn little bags here
+to represent bags of data.
+
+9
+00:00:30,899 --> 00:00:35,329
+And each one of these is
+a subset of the original data.
+
+10
+00:00:35,329 --> 00:00:37,280
+Now how do we collect these?
+
+11
+00:00:37,280 --> 00:00:39,520
+Well, we do it randomly.
+
+12
+00:00:39,520 --> 00:00:46,430
+So for this subset it
+contains n prime values and
+
+13
+00:00:46,429 --> 00:00:51,519
+our original data set contains
+n different instances.
+
+14
+00:00:51,520 --> 00:00:58,380
+We grab n prime of them, at random, with
+replacement from this original data.
+
+15
+00:00:58,380 --> 00:01:03,380
+So what, with replacement means is,
+let's say we had
+
+16
+00:01:03,380 --> 00:01:08,790
+these values, we might grab this one and
+put it in our bag.
+
+17
+00:01:08,790 --> 00:01:13,480
+We might randomly grab this one and
+put it in our bag, but each time we grab
+
+18
+00:01:13,480 --> 00:01:18,550
+randomly, we randomly choose across
+the whole collection of data.
+
+19
+00:01:18,549 --> 00:01:22,289
+So we might choose this one again and
+put it in the bag.
+
+20
+00:01:22,290 --> 00:01:27,910
+So this one and this one are really
+the same one and they're repeated twice.
+
+21
+00:01:27,909 --> 00:01:28,619
+And that's okay.
+
+22
+00:01:28,620 --> 00:01:30,969
+That's what with replacement means.
+
+23
+00:01:30,969 --> 00:01:36,989
+So we crate all together m
+of these groups or bags.
+
+24
+00:01:36,989 --> 00:01:39,989
+And each one of them contains n prime
+
+25
+00:01:39,989 --> 00:01:44,709
+different data instances chosen
+at random with replacement.
+
+26
+00:01:44,709 --> 00:01:46,709
+Let's note these things.
+
+27
+00:01:46,709 --> 00:01:51,139
+So, n is the number of training
+instances in our original data.
+
+28
+00:01:51,140 --> 00:01:56,960
+N prime is the number of instances
+that we put in each bag and
+
+29
+00:01:56,959 --> 00:01:59,579
+m is the number of bags.
+
+30
+00:01:59,579 --> 00:02:05,090
+We almost always want n
+prime to be less than n.
+
+31
+00:02:05,090 --> 00:02:07,409
+Usually about 60%.
+
+32
+00:02:07,409 --> 00:02:11,840
+So each of these bags has about
+60% as many training instances
+
+33
+00:02:11,840 --> 00:02:13,430
+as our original data.
+
+34
+00:02:13,430 --> 00:02:15,490
+That's just a rule of thumb.
+
+35
+00:02:15,490 --> 00:02:21,460
+Now, we use each of these collections
+of data to train a different model.
+
+36
+00:02:21,460 --> 00:02:24,490
+We have now m different models,
+
+37
+00:02:24,490 --> 00:02:27,790
+each one trained on a little
+bit of different data.
+
+38
+00:02:27,789 --> 00:02:31,989
+And just like when we have an ensemble
+of different learning algorithms,
+
+39
+00:02:31,990 --> 00:02:36,180
+here we have an ensemble of different
+models we query in the same way.
+
+40
+00:02:36,180 --> 00:02:41,650
+We query each model with the same x and
+we collect all of their outputs.
+
+41
+00:02:41,650 --> 00:02:45,330
+We take the y output of each model,
+take their mean, and
+
+42
+00:02:45,330 --> 00:02:48,400
+boom, that's our y for the ensemble.
+
+43
+00:02:48,400 --> 00:02:52,689
+Now keep in mind we can
+wrap this in a single API.
+
+44
+00:02:52,689 --> 00:02:58,090
+Just like that API you wrapped your
+[INAUDIBLE] in and your KNN learner in.
+

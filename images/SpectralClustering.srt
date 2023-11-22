@@ -1,0 +1,828 @@
+1
+00:00:03,980 --> 00:00:12,660
+in this session we are<font color="#E5E5E5"> going to</font>
+
+1
+00:00:07,859 --> 00:00:14,599
+introduce spectral clustering method<font color="#E5E5E5"> why</font>
+
+1
+00:00:12,660 --> 00:00:17,190
+do we<font color="#E5E5E5"> want to do spectral clustering</font>
+
+1
+00:00:14,599 --> 00:00:20,839
+<font color="#E5E5E5">because spectral clustering have some</font>
+
+1
+00:00:17,190 --> 00:00:23,670
+unique advantages<font color="#CCCCCC"> so first</font>
+
+1
+00:00:20,839 --> 00:00:27,778
+spectral clustering<font color="#E5E5E5"> makes no assumption</font>
+
+1
+00:00:23,670 --> 00:00:30,890
+on<font color="#E5E5E5"> the shapes of clusters so you can</font>
+
+1
+00:00:27,778 --> 00:00:34,289
+cluster<font color="#E5E5E5"> like any kind</font><font color="#CCCCCC"> of a shape even</font>
+
+1
+00:00:30,890 --> 00:00:36,929
+intertwine<font color="#CCCCCC"> spiders you'll be able to</font>
+
+1
+00:00:34,289 --> 00:00:38,820
+find nice and neat clusters<font color="#CCCCCC"> not to say</font>
+
+1
+00:00:36,929 --> 00:00:41,850
+other shapes<font color="#E5E5E5"> however many other</font>
+
+1
+00:00:38,820 --> 00:00:45,808
+classroom like a k-means or<font color="#CCCCCC"> e/m</font><font color="#E5E5E5"> tend to</font>
+
+1
+00:00:41,850 --> 00:00:50,489
+find non convex<font color="#E5E5E5"> shaped clusters then</font>
+
+1
+00:00:45,808 --> 00:00:52,828
+another advantage is usually<font color="#CCCCCC"> e/m or like</font>
+
+1
+00:00:50,488 --> 00:00:56,509
+a k-means those<font color="#E5E5E5"> are will require an</font>
+
+1
+00:00:52,829 --> 00:00:59,090
+iterative process<font color="#CCCCCC"> to</font><font color="#E5E5E5"> find local minimum</font>
+
+1
+00:00:56,509 --> 00:01:01,409
+and<font color="#E5E5E5"> they are very sensitive</font><font color="#CCCCCC"> to</font>
+
+1
+00:00:59,090 --> 00:01:04,070
+initialization so you usually need
+
+1
+00:01:01,409 --> 00:01:05,569
+multiple restarts<font color="#CCCCCC"> to get a</font><font color="#E5E5E5"> high quality</font>
+
+1
+00:01:04,069 --> 00:01:08,399
+clusters
+
+1
+00:01:05,569 --> 00:01:13,139
+however spectral clustering where<font color="#E5E5E5"> you</font>
+
+1
+00:01:08,400 --> 00:01:15,118
+have no such burden<font color="#CCCCCC"> okay the general</font>
+
+1
+00:01:13,140 --> 00:01:17,939
+process<font color="#CCCCCC"> of spectral clustering</font><font color="#E5E5E5"> is</font>
+
+1
+00:01:15,118 --> 00:01:20,938
+<font color="#CCCCCC">partitioning</font><font color="#E5E5E5"> into these three steps the</font>
+
+1
+00:01:17,938 --> 00:01:24,118
+first step<font color="#E5E5E5"> is construct a similarity</font>
+
+1
+00:01:20,938 --> 00:01:28,319
+graph for example<font color="#CCCCCC"> we can use ten years</font>
+
+1
+00:01:24,118 --> 00:01:30,868
+<font color="#CCCCCC">Nabal</font><font color="#E5E5E5"> pays down their neighborhood using</font>
+
+1
+00:01:28,319 --> 00:01:34,078
+like a Euclidean distance or other
+
+1
+00:01:30,868 --> 00:01:37,140
+distances you like to do your clustering
+
+1
+00:01:34,078 --> 00:01:39,839
+<font color="#E5E5E5">okay then for all</font><font color="#CCCCCC"> the points you</font><font color="#E5E5E5"> can</font>
+
+1
+00:01:37,140 --> 00:01:41,759
+construct such similarity graph for
+
+1
+00:01:39,840 --> 00:01:44,219
+<font color="#CCCCCC">example if you look</font><font color="#E5E5E5"> at this illustrative</font>
+
+1
+00:01:41,759 --> 00:01:48,420
+example you can see the original<font color="#CCCCCC"> data</font>
+
+1
+00:01:44,219 --> 00:01:51,060
+points if you<font color="#E5E5E5"> choose symmetric</font><font color="#CCCCCC"> K nearest</font>
+
+1
+00:01:48,420 --> 00:01:52,740
+neighbor<font color="#E5E5E5"> you will find</font><font color="#CCCCCC"> the skinners</font>
+
+1
+00:01:51,060 --> 00:01:57,060
+negative neighbor graph like the
+
+1
+00:01:52,739 --> 00:01:59,879
+<font color="#CCCCCC">following then we can</font><font color="#E5E5E5"> embed the data</font>
+
+1
+00:01:57,060 --> 00:02:03,180
+points in a low dimensional space using
+
+1
+00:01:59,879 --> 00:02:07,349
+<font color="#E5E5E5">spectral class embedding what is this</font>
+
+1
+00:02:03,180 --> 00:02:11,489
+<font color="#E5E5E5">this essentially is we can do graph</font>
+
+1
+00:02:07,349 --> 00:02:13,739
+laplacian compute the<font color="#E5E5E5"> eigenvectors of</font>
+
+1
+00:02:11,489 --> 00:02:15,860
+such graph laplacian
+
+1
+00:02:13,740 --> 00:02:19,980
+sir this embedding the cluster
+
+1
+00:02:15,860 --> 00:02:23,610
+structures become more obvious<font color="#CCCCCC"> then we</font>
+
+1
+00:02:19,979 --> 00:02:26,179
+will be<font color="#E5E5E5"> able to apply classical</font>
+
+1
+00:02:23,610 --> 00:02:29,370
+clustering algorithm<font color="#E5E5E5"> like a gay means on</font>
+
+1
+00:02:26,180 --> 00:02:32,870
+these embedding that means we will be
+
+1
+00:02:29,370 --> 00:02:36,750
+<font color="#E5E5E5">able</font><font color="#CCCCCC"> to partition the embedding graph</font>
+
+1
+00:02:32,870 --> 00:02:40,890
+into nice clusters<font color="#E5E5E5"> so this is the</font>
+
+1
+00:02:36,750 --> 00:02:44,400
+general idea<font color="#E5E5E5"> now we look at how we do it</font>
+
+1
+00:02:40,889 --> 00:02:47,639
+<font color="#E5E5E5">step by step</font><font color="#CCCCCC"> first</font><font color="#E5E5E5"> suppose we have a</font>
+
+1
+00:02:44,400 --> 00:02:49,909
+graph this usually is obtained by the<font color="#E5E5E5"> K</font>
+
+1
+00:02:47,639 --> 00:02:54,089
+<font color="#E5E5E5">nearest neighbor then we get awaits</font>
+
+1
+00:02:49,909 --> 00:02:59,129
+<font color="#E5E5E5">suppose the way to W sub 1 2 is a weight</font>
+
+1
+00:02:54,090 --> 00:03:03,030
+connecting the vertices<font color="#CCCCCC"> 1 and a 2 ok</font>
+
+1
+00:02:59,129 --> 00:03:08,039
+<font color="#E5E5E5">then the adjacency matrix</font><font color="#CCCCCC"> is M by M</font>
+
+1
+00:03:03,030 --> 00:03:10,650
+symmetric matrix<font color="#E5E5E5"> like this</font><font color="#CCCCCC"> one then for</font>
+
+1
+00:03:08,039 --> 00:03:14,250
+<font color="#E5E5E5">each element what you got the the</font>
+
+1
+00:03:10,650 --> 00:03:18,930
+assignment is<font color="#E5E5E5"> if there's an edge between</font>
+
+1
+00:03:14,250 --> 00:03:23,789
+<font color="#E5E5E5">like a 1</font><font color="#CCCCCC"> and 2</font><font color="#E5E5E5"> then you can pass on the</font>
+
+1
+00:03:18,930 --> 00:03:27,120
+edge<font color="#E5E5E5"> weight W sub 1</font><font color="#CCCCCC"> 2 you can get that</font>
+
+1
+00:03:23,789 --> 00:03:27,629
+<font color="#E5E5E5">weight W sub IJ is the weight of this</font>
+
+1
+00:03:27,120 --> 00:03:32,430
+<font color="#CCCCCC">sale</font>
+
+1
+00:03:27,629 --> 00:03:35,519
+if there is no connected edge like<font color="#E5E5E5"> 1 4</font>
+
+1
+00:03:32,430 --> 00:03:39,420
+is not connected then<font color="#CCCCCC"> 1 for this cell</font>
+
+1
+00:03:35,520 --> 00:03:42,710
+will be assigned as 0 then we can
+
+1
+00:03:39,419 --> 00:03:46,229
+<font color="#CCCCCC">perform laplacian on these matrix</font>
+
+1
+00:03:42,710 --> 00:03:47,599
+essentially<font color="#E5E5E5"> is we use a diagonal matrix</font>
+
+1
+00:03:46,229 --> 00:03:50,549
+<font color="#E5E5E5">of degrees</font>
+
+1
+00:03:47,599 --> 00:03:53,969
+- this adjacency matrix<font color="#E5E5E5"> will get a</font>
+
+1
+00:03:50,550 --> 00:03:58,050
+laplacian<font color="#CCCCCC"> what is the eigen or matrix of</font>
+
+1
+00:03:53,969 --> 00:04:01,139
+the degrees simply says you<font color="#CCCCCC"> the degree</font>
+
+1
+00:03:58,050 --> 00:04:04,830
+is defined<font color="#E5E5E5"> by for each row</font><font color="#CCCCCC"> you just sum</font>
+
+1
+00:04:01,139 --> 00:04:08,879
+up<font color="#E5E5E5"> all the</font><font color="#CCCCCC"> degree</font><font color="#E5E5E5"> all the weights or you</font>
+
+1
+00:04:04,830 --> 00:04:12,830
+say all the cell values in in this row
+
+1
+00:04:08,879 --> 00:04:18,238
+for example<font color="#CCCCCC"> for Row 1 what you</font><font color="#E5E5E5"> get is W</font>
+
+1
+00:04:12,830 --> 00:04:20,580
+sub 1 2 plus<font color="#E5E5E5"> W sub 1 3 you get the</font>
+
+1
+00:04:18,238 --> 00:04:23,969
+<font color="#E5E5E5">weights</font><font color="#CCCCCC"> that's the degree you will get</font>
+
+1
+00:04:20,579 --> 00:04:25,339
+that's<font color="#CCCCCC"> d1</font><font color="#E5E5E5"> similarly</font><font color="#CCCCCC"> for other degrees</font>
+
+1
+00:04:23,970 --> 00:04:28,160
+you just
+
+1
+00:04:25,339 --> 00:04:31,369
+<font color="#E5E5E5">in the same way laplacian this matrix</font>
+
+1
+00:04:28,160 --> 00:04:35,840
+value is if this<font color="#E5E5E5"> one is diagonal matrix</font>
+
+1
+00:04:31,370 --> 00:04:39,889
+<font color="#E5E5E5">I equals J then you</font><font color="#CCCCCC"> get the D sub I okay</font>
+
+1
+00:04:35,839 --> 00:04:44,989
+<font color="#E5E5E5">that's the row value of this degree if</font>
+
+1
+00:04:39,889 --> 00:04:49,310
+the if<font color="#CCCCCC"> its other cells</font><font color="#E5E5E5"> like I J has an</font>
+
+1
+00:04:44,990 --> 00:04:53,150
+edge<font color="#E5E5E5"> then because</font><font color="#CCCCCC"> 0 minus this</font><font color="#E5E5E5"> w sub IJ</font>
+
+1
+00:04:49,310 --> 00:04:53,629
+you get minus W sub IJ<font color="#E5E5E5"> that's what you</font>
+
+1
+00:04:53,149 --> 00:04:56,299
+got
+
+1
+00:04:53,629 --> 00:04:59,949
+if<font color="#CCCCCC"> original was 0 you will still get 0</font>
+
+1
+00:04:56,300 --> 00:05:04,550
+<font color="#CCCCCC">okay</font><font color="#E5E5E5"> so that's the value you get from</font>
+
+1
+00:04:59,949 --> 00:05:07,668
+<font color="#CCCCCC">calculus</font><font color="#E5E5E5"> laplacian matrix then we can</font>
+
+1
+00:05:04,550 --> 00:05:12,410
+see<font color="#CCCCCC"> how we can calculate the</font><font color="#E5E5E5"> graphs for</font>
+
+1
+00:05:07,668 --> 00:05:16,819
+<font color="#E5E5E5">eigenvalue and eigenvector so we pro can</font>
+
+1
+00:05:12,410 --> 00:05:18,860
+see the eigen value computation is based
+
+1
+00:05:16,819 --> 00:05:21,529
+on this formula<font color="#E5E5E5"> which</font><font color="#CCCCCC"> has been used very</font>
+
+1
+00:05:18,860 --> 00:05:24,800
+<font color="#E5E5E5">popularly in linear algebra</font><font color="#CCCCCC"> in matrix</font>
+
+1
+00:05:21,529 --> 00:05:27,709
+computation we're not getting<font color="#E5E5E5"> to very</font>
+
+1
+00:05:24,800 --> 00:05:31,430
+<font color="#CCCCCC">detail</font><font color="#E5E5E5"> but general philosophy is you get</font>
+
+1
+00:05:27,709 --> 00:05:35,478
+a matrix<font color="#CCCCCC"> a lambda is an eigenvalue of a</font>
+
+1
+00:05:31,430 --> 00:05:39,319
+and for<font color="#E5E5E5"> some vector V you will follow</font>
+
+1
+00:05:35,478 --> 00:05:43,370
+this<font color="#E5E5E5"> this equation</font><font color="#CCCCCC"> and V is icon vector</font>
+
+1
+00:05:39,319 --> 00:05:48,889
+and the lambda<font color="#E5E5E5"> is the eigen value of a</font>
+
+1
+00:05:43,370 --> 00:05:53,180
+<font color="#CCCCCC">ok</font><font color="#E5E5E5"> so then for a graph G if we</font><font color="#CCCCCC"> have n</font>
+
+1
+00:05:48,889 --> 00:05:58,329
+<font color="#E5E5E5">nodes then</font><font color="#CCCCCC"> its adjacency</font><font color="#E5E5E5"> you will have n</font>
+
+1
+00:05:53,180 --> 00:06:01,400
+<font color="#CCCCCC">eigen values and this</font><font color="#E5E5E5"> n value you can</font>
+
+1
+00:05:58,329 --> 00:06:03,500
+sort them according<font color="#E5E5E5"> to the descending</font>
+
+1
+00:06:01,399 --> 00:06:07,279
+order<font color="#E5E5E5"> you get</font><font color="#CCCCCC"> lambda 1 lambda 2 to</font>
+
+1
+00:06:03,500 --> 00:06:12,759
+lambda sub n<font color="#CCCCCC"> of</font><font color="#E5E5E5"> this n corresponding</font>
+
+1
+00:06:07,279 --> 00:06:15,829
+<font color="#CCCCCC">eigen vectors will</font><font color="#E5E5E5"> be X sub 1 to X sub n</font>
+
+1
+00:06:12,759 --> 00:06:19,360
+you look at this figure why<font color="#E5E5E5"> you can see</font>
+
+1
+00:06:15,829 --> 00:06:23,449
+<font color="#E5E5E5">this is the original graph you we have</font><font color="#CCCCCC"> 6</font>
+
+1
+00:06:19,360 --> 00:06:25,788
+vertices<font color="#E5E5E5"> and their connections</font><font color="#CCCCCC"> where the</font>
+
+1
+00:06:23,449 --> 00:06:30,709
+connection is<font color="#E5E5E5"> marked using those way</font>
+
+1
+00:06:25,788 --> 00:06:34,519
+those values<font color="#CCCCCC"> ok then obviously</font><font color="#E5E5E5"> the</font><font color="#CCCCCC"> the</font>
+
+1
+00:06:30,709 --> 00:06:38,180
+<font color="#CCCCCC">original matrix</font><font color="#E5E5E5"> adjacency matrix is</font>
+
+1
+00:06:34,519 --> 00:06:39,199
+marked<font color="#E5E5E5"> here you</font><font color="#CCCCCC"> pro can see and that's</font>
+
+1
+00:06:38,180 --> 00:06:42,500
+the original
+
+1
+00:06:39,199 --> 00:06:47,409
+<font color="#CCCCCC">easy matrix then we can calculate</font><font color="#E5E5E5"> the</font>
+
+1
+00:06:42,500 --> 00:06:50,990
+this originally a I this matrix
+
+1
+00:06:47,410 --> 00:06:58,640
+eigenvalue and you pro can see this is
+
+1
+00:06:50,990 --> 00:07:04,670
+their<font color="#E5E5E5"> eigenvalues and you pray you</font><font color="#CCCCCC"> see</font>
+
+1
+00:06:58,639 --> 00:07:11,050
+this is mu 1 to MU<font color="#E5E5E5"> 6 okay so that's the</font>
+
+1
+00:07:04,670 --> 00:07:14,000
+spec spectrum of the graph then the
+
+1
+00:07:11,050 --> 00:07:19,250
+<font color="#E5E5E5">eigenvalue and eigenvector of the graph</font>
+
+1
+00:07:14,000 --> 00:07:23,540
+the graph laplacian<font color="#CCCCCC"> of G is Keira kated</font>
+
+1
+00:07:19,250 --> 00:07:26,360
+you for this graph<font color="#CCCCCC"> essentially is you</font>
+
+1
+00:07:23,540 --> 00:07:29,360
+get a<font color="#E5E5E5"> lambda 1 lambda 2 2 lambda n and</font>
+
+1
+00:07:26,360 --> 00:07:33,430
+we know the value<font color="#CCCCCC"> of lambda 1</font><font color="#E5E5E5"> lambda 2</font>
+
+1
+00:07:29,360 --> 00:07:40,790
+lambda n we can sort them in this order
+
+1
+00:07:33,430 --> 00:07:44,329
+<font color="#CCCCCC">okay so if this 0 0</font><font color="#E5E5E5"> you get a spectrum</font>
+
+1
+00:07:40,790 --> 00:07:47,680
+<font color="#E5E5E5">is you you get this lambda value that's</font>
+
+1
+00:07:44,329 --> 00:07:50,689
+eigenvalue and eigenvector then
+
+1
+00:07:47,680 --> 00:07:53,780
+<font color="#E5E5E5">eigenvalue</font><font color="#CCCCCC"> review</font><font color="#E5E5E5"> is a global graph</font>
+
+1
+00:07:50,689 --> 00:07:57,680
+property which is not apparent<font color="#CCCCCC"> from the</font>
+
+1
+00:07:53,779 --> 00:08:01,009
+edge structure<font color="#E5E5E5"> itself essentially if you</font>
+
+1
+00:07:57,680 --> 00:08:03,560
+get a 0<font color="#E5E5E5"> is the eigenvalue with</font><font color="#CCCCCC"> k</font>
+
+1
+00:08:01,009 --> 00:08:08,329
+<font color="#E5E5E5">different eigen vectors you probably</font>
+
+1
+00:08:03,560 --> 00:08:11,509
+will see<font color="#E5E5E5"> these essentially the k k come</font>
+
+1
+00:08:08,329 --> 00:08:14,839
+connected components that means if
+
+1
+00:08:11,509 --> 00:08:20,180
+lambda<font color="#E5E5E5"> y is 0 that</font><font color="#CCCCCC"> rapin the one</font>
+
+1
+00:08:14,839 --> 00:08:22,669
+connected component then if<font color="#E5E5E5"> graph is</font>
+
+1
+00:08:20,180 --> 00:08:26,360
+connected then<font color="#E5E5E5"> lambda 2 will be greater</font>
+
+1
+00:08:22,670 --> 00:08:30,740
+<font color="#E5E5E5">than 0 lambda 2 is energy bright</font>
+
+1
+00:08:26,360 --> 00:08:35,029
+connectivity of<font color="#E5E5E5"> g here you can see the</font>
+
+1
+00:08:30,740 --> 00:08:38,620
+energy<font color="#E5E5E5"> air sub G has lambda 1 lambda 2</font>
+
+1
+00:08:35,029 --> 00:08:44,990
+lambda<font color="#E5E5E5"> 3 as 0 you get a 3 connected</font>
+
+1
+00:08:38,620 --> 00:08:50,659
+components and if you have air this<font color="#CCCCCC"> g1</font>
+
+1
+00:08:44,990 --> 00:08:52,539
+<font color="#CCCCCC">g2 you can see G 1 is has</font><font color="#E5E5E5"> only one</font>
+
+1
+00:08:50,659 --> 00:08:54,669
+connected component<font color="#E5E5E5"> and G</font>
+
+1
+00:08:52,539 --> 00:08:57,778
+who also has one connected component
+
+1
+00:08:54,669 --> 00:09:01,599
+that's why<font color="#E5E5E5"> lambda 2 is greater than</font><font color="#CCCCCC"> zero</font>
+
+1
+00:08:57,778 --> 00:09:04,659
+<font color="#E5E5E5">however you also can see</font><font color="#CCCCCC"> g2 is much</font>
+
+1
+00:09:01,600 --> 00:09:07,690
+denser is much more connected<font color="#E5E5E5"> than g1</font>
+
+1
+00:09:04,659 --> 00:09:13,000
+that's why G 2 lambda 2 value will be
+
+1
+00:09:07,690 --> 00:09:16,630
+greater than G<font color="#CCCCCC"> ones lambda</font><font color="#E5E5E5"> 2 value then</font>
+
+1
+00:09:13,000 --> 00:09:19,419
+we<font color="#CCCCCC"> can work out the partitioning via</font>
+
+1
+00:09:16,629 --> 00:09:23,708
+<font color="#E5E5E5">spectral</font><font color="#CCCCCC"> measures the general</font><font color="#E5E5E5"> philosophy</font>
+
+1
+00:09:19,419 --> 00:09:28,028
+is if we get this original graph<font color="#CCCCCC"> we map</font>
+
+1
+00:09:23,708 --> 00:09:31,989
+<font color="#E5E5E5">them into la blushing of this original</font>
+
+1
+00:09:28,028 --> 00:09:35,289
+graph is this value<font color="#CCCCCC"> okay then we</font>
+
+1
+00:09:31,990 --> 00:09:40,000
+actually<font color="#CCCCCC"> also know we can</font><font color="#E5E5E5"> carry it the</font>
+
+1
+00:09:35,289 --> 00:09:43,289
+second the second eigenvector<font color="#E5E5E5"> and the</font>
+
+1
+00:09:40,000 --> 00:09:46,929
+second back<font color="#E5E5E5"> again vector V sub</font><font color="#CCCCCC"> two</font>
+
+1
+00:09:43,289 --> 00:09:49,480
+corresponding<font color="#E5E5E5"> to lambda sub 2 and for</font>
+
+1
+00:09:46,929 --> 00:09:52,269
+lambdas up to the smaller the better
+
+1
+00:09:49,480 --> 00:09:56,039
+quality<font color="#CCCCCC"> of</font><font color="#E5E5E5"> the partitioning because if</font>
+
+1
+00:09:52,269 --> 00:10:00,190
+lambda is<font color="#E5E5E5"> 0 means</font><font color="#CCCCCC"> it's not connected and</font>
+
+1
+00:09:56,039 --> 00:10:03,009
+if lambda 2<font color="#E5E5E5"> actually greater means they</font>
+
+1
+00:10:00,190 --> 00:10:05,019
+they are more tightly connected<font color="#E5E5E5"> if you</font>
+
+1
+00:10:03,009 --> 00:10:09,939
+want to get nice partitioning<font color="#E5E5E5"> you want</font>
+
+1
+00:10:05,019 --> 00:10:14,679
+to find<font color="#E5E5E5"> a smaller lambda 2 then</font><font color="#CCCCCC"> if we</font>
+
+1
+00:10:09,940 --> 00:10:21,730
+calculated this for each node I and G we
+
+1
+00:10:14,679 --> 00:10:26,979
+<font color="#CCCCCC">can assign it the value of V 2 then we V</font>
+
+1
+00:10:21,730 --> 00:10:30,670
+2 sub I so for for example<font color="#CCCCCC"> these note</font>
+
+1
+00:10:26,980 --> 00:10:34,659
+once V 2 is zero<font color="#E5E5E5"> point one at zero point</font>
+
+1
+00:10:30,669 --> 00:10:36,490
+<font color="#E5E5E5">four one then if we want to find these</font>
+
+1
+00:10:34,659 --> 00:10:46,019
+are the six nodes<font color="#E5E5E5"> they are corresponding</font>
+
+1
+00:10:36,490 --> 00:10:50,500
+V 2 value then if we get this V<font color="#CCCCCC"> 2 value</font>
+
+1
+00:10:46,019 --> 00:10:54,909
+<font color="#E5E5E5">we can get a greater than</font><font color="#CCCCCC"> 0 then we can</font>
+
+1
+00:10:50,500 --> 00:10:59,379
+assign to<font color="#CCCCCC"> C 1</font><font color="#E5E5E5"> and these</font><font color="#CCCCCC"> vetoes the value</font>
+
+1
+00:10:54,909 --> 00:11:01,919
+is less<font color="#CCCCCC"> than</font><font color="#E5E5E5"> 0 it could be another</font>
+
+1
+00:10:59,379 --> 00:11:05,950
+cluster<font color="#CCCCCC"> then we</font><font color="#E5E5E5"> actually will get a nice</font>
+
+1
+00:11:01,919 --> 00:11:09,789
+partitioning<font color="#CCCCCC"> C 1 C 2</font>
+
+1
+00:11:05,950 --> 00:11:15,550
+this<font color="#CCCCCC"> 1 2 3</font><font color="#E5E5E5"> will become one cluster 4 5 6</font>
+
+1
+00:11:09,789 --> 00:11:18,209
+will<font color="#E5E5E5"> become another cluster so we can</font>
+
+1
+00:11:15,549 --> 00:11:25,689
+extend this algorithm<font color="#CCCCCC"> to</font><font color="#E5E5E5"> K partitions</font>
+
+1
+00:11:18,210 --> 00:11:29,259
+the<font color="#CCCCCC"> gain</font><font color="#E5E5E5"> in Jordan and</font><font color="#CCCCCC"> in the</font><font color="#E5E5E5"> vise</font>
+
+1
+00:11:25,690 --> 00:11:33,100
+algorithm you know work out<font color="#CCCCCC"> it by</font>
+
+1
+00:11:29,259 --> 00:11:40,019
+engineering Michael Jordan and and this
+
+1
+00:11:33,100 --> 00:11:43,210
+publishing 2002 was normalized laplacian
+
+1
+00:11:40,019 --> 00:11:46,360
+<font color="#E5E5E5">essentially the</font><font color="#CCCCCC"> original a poverty is</font>
+
+1
+00:11:43,210 --> 00:11:49,030
+not a normalized<font color="#CCCCCC"> but once you use this</font>
+
+1
+00:11:46,360 --> 00:11:52,389
+formula<font color="#CCCCCC"> we can ominous</font><font color="#E5E5E5"> a graph so the</font>
+
+1
+00:11:49,029 --> 00:11:55,899
+degree<font color="#CCCCCC"> the part is</font><font color="#E5E5E5"> all one and all</font><font color="#CCCCCC"> the</font>
+
+1
+00:11:52,389 --> 00:11:59,679
+other roles you add up actually is<font color="#CCCCCC"> -1 so</font>
+
+1
+00:11:55,899 --> 00:12:03,149
+<font color="#CCCCCC">you finally get it normalized</font><font color="#E5E5E5"> graph so</font>
+
+1
+00:11:59,679 --> 00:12:08,919
+<font color="#E5E5E5">we can compute</font><font color="#CCCCCC"> the first K eigen vectors</font>
+
+1
+00:12:03,149 --> 00:12:13,090
+we want to be<font color="#E5E5E5"> K then</font><font color="#CCCCCC"> we can carat the</font>
+
+1
+00:12:08,919 --> 00:12:16,839
+the matrix<font color="#E5E5E5"> that</font><font color="#CCCCCC"> you</font><font color="#E5E5E5"> use in a similar way</font>
+
+1
+00:12:13,090 --> 00:12:21,160
+we can<font color="#CCCCCC"> do the partition into you know</font>
+
+1
+00:12:16,840 --> 00:12:23,680
+because we take the ice<font color="#CCCCCC"> role of you it's</font>
+
+1
+00:12:21,159 --> 00:12:27,219
+a feature factor after normalizing<font color="#E5E5E5"> to</font>
+
+1
+00:12:23,679 --> 00:12:32,139
+normal one no<font color="#E5E5E5"> one can cluster the points</font>
+
+1
+00:12:27,220 --> 00:12:34,350
+which<font color="#CCCCCC"> k-means into K clusters</font><font color="#E5E5E5"> then this</font>
+
+1
+00:12:32,139 --> 00:12:37,470
+<font color="#CCCCCC">Messer is commonly used as a dimension</font>
+
+1
+00:12:34,350 --> 00:12:42,389
+reduction<font color="#E5E5E5"> dimensionality reduction</font>
+
+1
+00:12:37,470 --> 00:12:42,389
+measures for clustering
+

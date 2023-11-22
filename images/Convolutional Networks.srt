@@ -1,0 +1,247 @@
+1
+00:00:00,560 --> 00:00:04,259
+Let's talk about convolutional networks,
+or convnets.
+
+1
+00:00:04,259 --> 00:00:08,379
+Convnets are neural networks that
+share their parameters across space.
+
+1
+00:00:09,759 --> 00:00:11,560
+Imagine you have an image.
+
+1
+00:00:11,560 --> 00:00:13,390
+It can be represented as a flat pancake.
+
+1
+00:00:14,400 --> 00:00:16,850
+It has a width and a height.
+
+1
+00:00:16,850 --> 00:00:18,970
+And because you typically have red,
+green, and
+
+1
+00:00:18,969 --> 00:00:22,039
+blue channels, it also has a depth.
+
+1
+00:00:22,039 --> 00:00:25,589
+In this instance, depth is 3,
+that's your input.
+
+1
+00:00:26,699 --> 00:00:29,550
+Now imagine taking a small
+patch of this image and
+
+1
+00:00:29,550 --> 00:00:33,730
+running a tiny neural network on it,
+with say, K outputs.
+
+1
+00:00:33,729 --> 00:00:38,390
+Let's represent those outputs
+vertically, in a tiny column like this.
+
+1
+00:00:38,390 --> 00:00:41,350
+Now let's slide that little
+neural network across the image
+
+1
+00:00:41,350 --> 00:00:43,149
+without changing the weights.
+
+1
+00:00:43,149 --> 00:00:46,329
+Just slide across and vertically
+like we're painting it with a brush.
+
+1
+00:00:47,439 --> 00:00:50,320
+On the output,
+we've drawn another image.
+
+1
+00:00:50,320 --> 00:00:53,310
+It's got a different width,
+a different height, and
+
+1
+00:00:53,310 --> 00:00:55,910
+more importantly,
+it's got a different depth.
+
+1
+00:00:55,909 --> 00:00:57,129
+Instead of just R, G and
+
+1
+00:00:57,130 --> 00:01:01,800
+B, now you have an output that's
+got many color channels, K of them.
+
+1
+00:01:01,799 --> 00:01:04,268
+This operation is called a convolution.
+
+1
+00:01:04,269 --> 00:01:07,700
+If your patch size were
+the size of the whole image,
+
+1
+00:01:07,700 --> 00:01:11,510
+it would be no different than
+a regular layer of a neural network.
+
+1
+00:01:11,510 --> 00:01:16,219
+But because we have this small patch
+instead, we have many fewer weights and
+
+1
+00:01:16,219 --> 00:01:17,549
+they are shared across space.
+
+1
+00:01:18,739 --> 00:01:23,079
+A convnet is going to basically be
+a deep network where instead of having
+
+1
+00:01:23,079 --> 00:01:28,129
+stacks of matrix multiply layers, we're
+going to have stacks of convolutions.
+
+1
+00:01:29,469 --> 00:01:31,626
+The general idea is that
+they will form a pyramid.
+
+1
+00:01:31,626 --> 00:01:38,089
+At the bottom you have this big image
+but very shallow, just R, G, and B.
+
+1
+00:01:39,299 --> 00:01:43,189
+You're going to apply convolutions that
+are going to progressively squeeze
+
+1
+00:01:43,189 --> 00:01:47,679
+the spatial dimensions while
+increasing the depth, which corresponds
+
+1
+00:01:47,680 --> 00:01:50,750
+roughly to the semantic complexity
+of your representation.
+
+1
+00:01:52,000 --> 00:01:54,640
+At the top you can put your classifier.
+
+1
+00:01:54,640 --> 00:01:58,129
+You have a representation where all the
+spatial information has been squeezed
+
+1
+00:01:58,129 --> 00:02:01,729
+out and only parameters that map
+to contents of the image remain.
+
+1
+00:02:02,849 --> 00:02:03,933
+So that's the general idea.
+
+1
+00:02:03,933 --> 00:02:08,156
+If you're going to implement this,
+there are lots of little details to get
+
+1
+00:02:08,156 --> 00:02:11,219
+right and
+a fair bit of lingo to get used to.
+
+1
+00:02:11,219 --> 00:02:14,359
+You've met the concept of patch and
+depth.
+
+1
+00:02:14,360 --> 00:02:17,230
+Patches are sometimes called kernels.
+
+1
+00:02:17,229 --> 00:02:21,149
+Each pancake in your stack
+is called a feature map.
+
+1
+00:02:21,150 --> 00:02:24,915
+Here, you're mapping three
+feature maps to K feature maps.
+
+1
+00:02:24,915 --> 00:02:28,199
+Another term that you
+need to know is stride.
+
+1
+00:02:28,199 --> 00:02:32,619
+It's the number of pixels that you're
+shifting each time you move your filter.
+
+1
+00:02:32,620 --> 00:02:37,289
+A stride of 1 makes the output
+roughly the same size as the input.
+
+1
+00:02:37,289 --> 00:02:39,759
+A stride of 2 means it's
+about half the size.
+
+1
+00:02:40,979 --> 00:02:41,949
+I say roughly,
+
+1
+00:02:41,949 --> 00:02:45,829
+because it depends a bit about what
+you do at the edge of your image.
+
+1
+00:02:45,830 --> 00:02:47,190
+Either, you don't go past the edge,
+
+1
+00:02:47,189 --> 00:02:50,719
+and it's often called valid
+padding as a shortcut.
+
+1
+00:02:51,729 --> 00:02:56,149
+Or you go off the edge and pad with
+zeros in such a way that the output
+
+1
+00:02:56,150 --> 00:03:00,800
+map size is exactly the same
+size as the input map.
+
+1
+00:03:00,800 --> 00:03:03,340
+That is often called same
+padding as a shortcut.
+

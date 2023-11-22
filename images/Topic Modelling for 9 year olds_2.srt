@@ -1,0 +1,168 @@
+1
+00:00:00,000 --> 00:00:05,940
+machines<font color="#CCCCCC"> can't read obviously but</font><font color="#E5E5E5"> then</font>
+
+1
+00:00:03,870 --> 00:00:08,009
+ever wonder how<font color="#E5E5E5"> Google knows exactly</font>
+
+1
+00:00:05,940 --> 00:00:11,670
+what you're looking for just as you
+
+1
+00:00:08,009 --> 00:00:13,980
+write it imagine one day I<font color="#CCCCCC"> gave you an</font>
+
+1
+00:00:11,669 --> 00:00:16,618
+article<font color="#E5E5E5"> and asked you what is this</font>
+
+1
+00:00:13,980 --> 00:00:18,929
+article about you would probably read it
+
+1
+00:00:16,618 --> 00:00:22,019
+quickly<font color="#E5E5E5"> and be able to tell</font><font color="#CCCCCC"> me this</font>
+
+1
+00:00:18,929 --> 00:00:24,868
+article is about Mars the planet but I
+
+1
+00:00:22,019 --> 00:00:27,778
+<font color="#E5E5E5">tell</font><font color="#CCCCCC"> you to wait your job is</font><font color="#E5E5E5"> not yet</font>
+
+1
+00:00:24,868 --> 00:00:29,879
+done I now hand you<font color="#CCCCCC"> a whole pile of</font>
+
+1
+00:00:27,778 --> 00:00:32,700
+articles and ask you<font color="#CCCCCC"> what each of them</font>
+
+1
+00:00:29,879 --> 00:00:34,649
+is about this would probably infuriate
+
+1
+00:00:32,700 --> 00:00:37,620
+you because the<font color="#CCCCCC"> only way you could do</font>
+
+1
+00:00:34,649 --> 00:00:39,620
+that<font color="#E5E5E5"> is to read through all of them but</font>
+
+1
+00:00:37,619 --> 00:00:42,269
+what if<font color="#CCCCCC"> I told you you don't have to</font>
+
+1
+00:00:39,619 --> 00:00:44,878
+let's take<font color="#E5E5E5"> the Mars article for example</font>
+
+1
+00:00:42,270 --> 00:00:46,890
+if I took out a couple of words from<font color="#E5E5E5"> the</font>
+
+1
+00:00:44,878 --> 00:00:50,099
+article<font color="#E5E5E5"> could you still tell me what it</font>
+
+1
+00:00:46,890 --> 00:00:52,409
+was about it wouldn't make<font color="#CCCCCC"> any sense</font><font color="#E5E5E5"> now</font>
+
+1
+00:00:50,100 --> 00:00:55,439
+<font color="#CCCCCC">but you know it had something to do with</font>
+
+1
+00:00:52,409 --> 00:00:58,468
+Mars the planet machines read the same
+
+1
+00:00:55,439 --> 00:01:00,808
+way discounting words but you should
+
+1
+00:00:58,469 --> 00:01:03,600
+stop me right here you know what mark
+
+1
+00:01:00,808 --> 00:01:06,298
+says you've heard<font color="#E5E5E5"> about it before how</font>
+
+1
+00:01:03,600 --> 00:01:09,510
+does a machine know what it is well by
+
+1
+00:01:06,299 --> 00:01:12,330
+something called inference for<font color="#E5E5E5"> instance</font>
+
+1
+00:01:09,510 --> 00:01:15,390
+if<font color="#CCCCCC"> I</font><font color="#E5E5E5"> told you that a box contained some</font>
+
+1
+00:01:12,329 --> 00:01:17,609
+red<font color="#CCCCCC"> and white colored balls and we pick</font>
+
+1
+00:01:15,390 --> 00:01:20,400
+out 10 balls from it some red and some
+
+1
+00:01:17,609 --> 00:01:23,789
+white then what is<font color="#CCCCCC"> the ratio of</font><font color="#E5E5E5"> the</font>
+
+1
+00:01:20,400 --> 00:01:27,150
+balls in the box you could count out of
+
+1
+00:01:23,790 --> 00:01:29,880
+10 we have five red balls and five white
+
+1
+00:01:27,150 --> 00:01:33,390
+balls so<font color="#E5E5E5"> with some confidence you could</font>
+
+1
+00:01:29,879 --> 00:01:36,359
+say the ratio should be half of them red
+
+1
+00:01:33,390 --> 00:01:38,909
+and half of them white machines do the
+
+1
+00:01:36,359 --> 00:01:41,609
+same thing for articles they would count
+
+1
+00:01:38,909 --> 00:01:42,960
+the word Mars then they would count the
+
+1
+00:01:41,609 --> 00:01:45,478
+other words<font color="#E5E5E5"> that showed up in the</font>
+
+1
+00:01:42,959 --> 00:01:47,699
+article they would do that<font color="#CCCCCC"> for all the</font>
+
+1
+00:01:45,478 --> 00:01:51,228
+articles in the pile and then<font color="#E5E5E5"> with some</font>
+
+1
+00:01:47,700 --> 00:01:55,820
+confidence say Mars is probably a planet
+
+1
+00:01:51,228 --> 00:01:55,819
+<font color="#CCCCCC">and you thought reading was easy</font>
+

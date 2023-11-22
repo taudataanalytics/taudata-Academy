@@ -1,0 +1,188 @@
+1
+00:00:00,280 --> 00:00:05,250
+Boosting is a fairly simple variation
+on bagging that strives to improve
+
+2
+00:00:05,250 --> 00:00:09,169
+the learners by focusing on areas where
+the system is not performing well.
+
+3
+00:00:09,169 --> 00:00:14,059
+One of the most well-known algorithms
+in this area is called ada boost.
+
+4
+00:00:14,060 --> 00:00:18,460
+And I believe it's ada,
+not ata because ada stands for adaptive.
+
+5
+00:00:18,460 --> 00:00:20,679
+Here's how ada boost works.
+
+6
+00:00:20,679 --> 00:00:23,420
+We build our first bag of
+data in the usual way.
+
+7
+00:00:23,420 --> 00:00:26,670
+We select randomly
+from our training data.
+
+8
+00:00:26,670 --> 00:00:29,880
+We then train a model in a usual way.
+
+9
+00:00:29,879 --> 00:00:32,429
+The next thing we do, and
+this is something different,
+
+10
+00:00:32,429 --> 00:00:37,149
+we take all our training data and
+use it to test the model
+
+11
+00:00:37,149 --> 00:00:40,975
+in order to discover that
+some of the points in here,
+
+12
+00:00:40,975 --> 00:00:46,060
+our x's and our y's,
+are not well predicted.
+
+13
+00:00:46,060 --> 00:00:48,500
+So there's going to be
+some points in here for
+
+14
+00:00:48,500 --> 00:00:52,503
+which there is significant error.
+
+15
+00:00:52,503 --> 00:00:56,659
+Now, when we go to build our
+next bag of data, again,
+
+16
+00:00:56,659 --> 00:00:59,549
+we choose randomly
+from our original data.
+
+17
+00:00:59,549 --> 00:01:04,299
+But each instance is weighted
+according to this error.
+
+18
+00:01:04,299 --> 00:01:08,849
+So, these points that had significant
+error, are more likely to get picked and
+
+19
+00:01:08,849 --> 00:01:12,831
+to go into this bag than any
+other individual instance.
+
+20
+00:01:12,831 --> 00:01:16,899
+So as you see, we ended up with
+a few of those points in here and
+
+21
+00:01:16,900 --> 00:01:19,219
+a smattering of all
+the other ones as well.
+
+22
+00:01:19,219 --> 00:01:22,980
+We build a model from this data and
+then we test it.
+
+23
+00:01:22,980 --> 00:01:25,460
+Now we test our system altogether.
+
+24
+00:01:25,459 --> 00:01:28,759
+In other words, we've got a sort
+of miniature ensemble here,
+
+25
+00:01:28,760 --> 00:01:30,560
+just two learners.
+
+26
+00:01:30,560 --> 00:01:32,420
+And we test both of them.
+
+27
+00:01:32,420 --> 00:01:37,359
+We test them by inputting
+again this in-sample data.
+
+28
+00:01:37,359 --> 00:01:41,430
+We test on each instance and
+we combine their outputs.
+
+29
+00:01:41,430 --> 00:01:44,720
+And again we measure error
+across all this data.
+
+30
+00:01:44,719 --> 00:01:47,780
+Maybe this time these points
+got modeled better, but
+
+31
+00:01:47,780 --> 00:01:49,820
+there were some other ones up
+here that weren't as good.
+
+32
+00:01:50,840 --> 00:01:53,760
+And thus we build our next bag and
+our next model.
+
+33
+00:01:53,760 --> 00:01:55,750
+And we just continue this over,
+and over and
+
+34
+00:01:55,750 --> 00:02:01,090
+over again up until m or
+the total number of bags we'll be using.
+
+35
+00:02:01,090 --> 00:02:04,719
+So to recap, bagging,
+when we build one of these instances,
+
+36
+00:02:04,719 --> 00:02:09,770
+is simply choosing some subset of
+the data at random with replacement,
+
+37
+00:02:09,770 --> 00:02:12,490
+and we create each bag in the same way.
+
+38
+00:02:12,490 --> 00:02:18,870
+Boosting is an add-on to this idea where
+in subsequent bags we choose those
+
+39
+00:02:18,870 --> 00:02:23,280
+data instances that had been modeled
+poorly in the overall system before.
+
