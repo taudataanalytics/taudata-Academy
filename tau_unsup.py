@@ -18,7 +18,7 @@ from sklearn.cluster import MiniBatchKMeans
 from sklearn.metrics.pairwise import pairwise_distances_argmin
 from sklearn.metrics import silhouette_samples, silhouette_score
 import warnings
-from sklearn import cluster, datasets
+from sklearn import cluster#, datasets
 from sklearn.preprocessing import StandardScaler
 from itertools import cycle, islice
 
