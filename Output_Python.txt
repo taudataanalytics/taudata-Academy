@@ -1,0 +1,2 @@
+this is the first output again because it was opened with 'w'
+this is now the second output because it was opened with 'a'
